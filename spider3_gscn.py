@@ -1,8 +1,9 @@
-import requests
+﻿import requests
 import time
 from bs4 import BeautifulSoup
 from collections import deque
 from multiprocessing.dummy import Pool as ThreadPool
+import os
 
 
 # todo: 首页所有链接
