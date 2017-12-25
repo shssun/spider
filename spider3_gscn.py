@@ -3,7 +3,7 @@ import time
 from bs4 import BeautifulSoup
 from collections import deque
 from multiprocessing.dummy import Pool as ThreadPool
-import os,sys
+
 
 # todo: 首页所有链接
 # todo: 处理a中  javascript:void(0) 的问题
